@@ -3,4 +3,12 @@
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   background-color: @(CANVAS_BGCOLOR);
+  overflow: hidden;
+  position:fixed;
+  touch-action: none;
+}
+
+body {
+  overflow: hidden;
+  touch-action: none;
 }
